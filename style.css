@@ -1,8 +1,12 @@
  @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
  @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
   /* background-color: #4CAF50; */
   background-image: url("bg.jpg");
   background-size: cover;
@@ -22,7 +26,6 @@ img {
 
 img.pic {
   position: absolute;
-  margin: 0;
   top: 0;
   left: 10px;
   height: 300px;
@@ -39,7 +42,6 @@ p {
 	text-shadow: 4px 4px 4px #aaa;
 
   position: absolute;
-  margin: 0;
   top: 0;
 }
 
@@ -67,6 +69,7 @@ h1 {
 	font-size: 70pt;
 	font-family: 'Gloria Hallelujah', cursive;
 	text-shadow: 4px 4px 4px #750000;
+	line-height: 1.2;
 }
 
 h2 {
@@ -124,7 +127,6 @@ h2 span {
 }
 .card--inner {
   overflow: hidden;
-  padding: 0px;
 }
 .card--inner h2 {
   font-size: 32px;
